@@ -1,0 +1,54 @@
+# Instalar a ferramenta expo
+- npm install -g expo-cli
+
+## Criar a aplicação
+- expo init nomeDoApplication
+
+## Ver a versao da aplicação
+- expo --version
+
+## Rodar a aplicação
+- expo start
+
+## Instalar font personalizada Roboto
+- expo install expo-font @expo-google-fonts/roboto
+
+## Verifica se as fontes nao foram carregadas, segura o splash
+- expo install expo-app-loading  
+
+## Reconhecer os SVG como components
+- expo install react-native-svg
+
+## Transforma o SVG em components
+- yarn add --dev react-native-svg-transformer
+
+## Gradientes
+- expo install expo-linear-gradient
+
+## Animação da mensagens (Moti)
+- yarn add moti
+
+## Animation V2
+- expo install react-native-reanimated
+## Plugin
+- plugins: ['react-native-reanimated/plugin'],
+
+## AuthSession expo
+- expo install expo-auth-session expo-random
+
+## Fazer login no expo (mesmos dados do github)
+- expo login 
+- dados login
+- dados password
+
+## Axios
+- yarn add axios
+
+## Buscar pelo seu IP local
+- ipconfig no windows
+
+## AsyncStorage para armazenar localmente
+- expo install @react-native-async-storage/async-storage
+
+## Socket.Io (para ativar a sincronização de mensagens em tempo real )
+- yarn add socket.Io-client
