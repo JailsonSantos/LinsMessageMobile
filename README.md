@@ -2,4 +2,4 @@
 Uma aplicação de envio de mensagens para dispositivos móveis
 
 ## Dependencias
-- Yarn
+- npm install
